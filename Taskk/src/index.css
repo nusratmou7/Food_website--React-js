@@ -1,0 +1,243 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: muli;
+}
+
+h5{
+    margin-left: 1.3rem;
+}
+/* menu part..........................*/
+.nav-link{
+    background-color: none;
+}
+    .navbar-brand{
+        font-size: 1.9 !important;
+        color: rgb(245 79 16) !important;
+    }
+     a{
+        font-size:1.3rem;
+        text-transform: capitalize;
+    }
+    .menu_active{
+        font-weight: bold;
+        border-bottom: 5px solid rgb(245 79 16);
+    }
+     a:hover{
+        color: chartreuse;
+    }
+.nav-item-pic img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.nav-item-pic{
+    border-right: 2px solid grey;
+    height: 52px;
+    padding: 0px 10px;
+}
+.nav-item-icon{
+ 
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 50px;
+    transition: 0.5s;
+    background:rgb(245 79 16);
+    text-decoration: none;
+    margin:3px 10px;
+}
+.nav-link{
+    margin:0rem 1rem;
+}
+
+
+.bb{
+    border-bottom: 1px solid grey;
+}
+/* menu part end..................................*/
+
+
+/* Home part start................................*/
+/* Home part start................................*/
+
+#header{
+    width:100%;
+    height:70vh;
+    margin-top: 40px;
+    background-image: url("./img/asset (4).png") ;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+   
+}
+#header h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #fffbfb;
+    padding-top: 70px;
+}
+#header h1{
+    color:rgb(100, 53, 53);
+    font-size: 24px;
+}
+.flex {
+    display: flex;
+    align-items: center;
+   }
+   
+   .app-btn {
+     width: 45%;
+     max-width: 160px;
+     color: #fff;
+     margin: 20px 10px;
+     text-align: left;
+     border-radius: 5px;
+     text-decoration: none;
+     font-family: "Lucida Grande", sans-serif;
+     font-size: 10px;
+     text-transform: uppercase;
+   }
+     .blu {
+      background-color: #b50552;
+      transition: background-color 0.25s linear;
+     }
+      .blu:hover {
+       background-color: #5a062a;
+      }
+     
+     .app-btn.blu i {
+      width: 20%;
+      text-align: center;
+      font-size: 28px;
+      margin-right: 7px;
+     }
+     .big-txt {
+      font-size: 17px;
+      text-transform: capitalize;
+     }
+/* Home part end........................................*/
+
+/* search part start..............................................*/
+
+.nav-icon{
+    letter-spacing: 1px;
+    display: inline-block;
+    border-radius: 50px;
+    transition: 0.5s;
+    background:rgb(245 79 16);
+    text-decoration: none;
+    margin:3px 10px;
+    padding:0px 10px;
+}
+/* search part end..............................................*/
+
+/*...................filter buttons .......................*/
+
+.btn-container {
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+  }
+  .filter-btn {
+    background: #efeaea;
+    border-color: transparent;
+    font-size: 1rem;
+    text-transform: capitalize;
+    margin: 0 1rem;
+    letter-spacing: 1px;
+    padding: 0.375rem 0.2rem;
+    cursor: pointer;
+    border-radius: 5rem;
+    color: grey;
+    font-weight: 500;
+}
+  .filter-btn:hover {
+    background:#f01919;
+    color:papayawhip;
+  }
+ 
+
+/*...................filter buttons end.......................*/
+
+
+/*........................card,,,,,,,,,,...........*/
+
+.card-link{
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 50px;
+    background: #f1ede8;
+    font-size: 12px;
+    color: #73789c;
+}
+.checked{
+    color: orangered;
+}
+.card-img-top{
+    width:100px;
+}
+
+  
+/*........................card end,,,,,,,,,,...........*/
+
+
+/*........................service ,,,,,,,,,,...........*/
+.menu{
+    width: 270px;
+    margin: 180px -40px;
+    position:relative;
+}
+
+.item-icon{
+    position: absolute;
+    top:80%;
+    left:28%;
+    background-color: #a01128;
+    font-size: 12px;
+    padding: 4px 32px;
+    border-radius: 50px;
+    color:#fff;
+    border:none;
+}
+
+
+/*........................service ,,,,,,,,,,...........*/
+
+@media(max-width:991px){
+    .navbar-brand{
+        font-size: 1.5 !important;
+    }
+    .menu_active{
+        font-weight: bold;
+        border-bottom: none;
+    }
+}
+
+ @-webkit-keyframes up-down{
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+@keyframes up-down{
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+
+     @media(max-width:798px){
+        .navbar-brand{
+            font-size: 1.5 !important;
+        }
+        .menu_active{
+            font-weight: bold;
+            border-bottom: none;
+        }
+    }
